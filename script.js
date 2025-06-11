@@ -2,7 +2,9 @@
 //  - Give it the value of your name. 
 //  - This is a string so the value should be in quotes ""
 
-
+let myName = "Freddy Fazbear"
+let age = 42
+let answer = document.querySelector(".answer")
 
 // 2. Declare a variable called age. 
 //  - Give it the value of your age. 
@@ -14,4 +16,4 @@
 
 // 4. When you're done, remove the comment from the code below.
 
-// answer.innerHTML = myName + " is " + age;
+answer.innerHTML = myName + " is " + age;
